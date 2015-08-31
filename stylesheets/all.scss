@@ -1,3 +1,68 @@
+$column-width: 8.45%;
+$gutter-width: 1.4%;
+$ik-blue: #1042FF;
+
+body {
+  background-color: $ik-blue;
+  color: lighten(black, 18%);
+  color: white;
+  font-family: "freight-text-pro", "Times New Roman", serif;
+  font-weight: 400;
+  height: 100%;
+}
+
+*[lang="ja"] {
+  font-family: "heisei-mincho-stdn", serif;
+}
+
+article {
+  margin: 44px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+footer {
+  margin: 44px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 120px;
+  line-height: 145px;
+  margin: 0;
+  font-weight: 500;
+  font-family: "freight-big-pro", "Times New Roman", serif;
+  &[lang="ja"] {
+    font-family: "heisei-mincho-stdn", serif;
+  }
+}
+
+p {
+  max-width: 420px;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+a {
+  font-family: "nimbus-sans", sans-serif;
+  font-weight: 500;
+  color: inherit;
+  font-size: 95%;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.75px solid rgba(white, 0.66);
+  height: 22px;
+  &:hover {
+    border-bottom: 1.75px solid white;
+  }
+}
+
 svg {
   position: fixed;
   width: 2000px;
