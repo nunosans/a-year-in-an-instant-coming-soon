@@ -3,7 +3,6 @@ $gutter-width: 1.4%;
 $ik-blue: #1042FF;
 
 body {
-  background-color: $ik-blue;
   color: lighten(black, 18%);
   color: white;
   font-family: "freight-text-pro", "Times New Roman", serif;
@@ -74,15 +73,17 @@ svg {
   z-index: 1;
   pointer-events: none;
   mix-blend-mode: multiply;
+  background-color: darken(white, 12%);
   circle {
     width: 500px;
     height: 500px;
     cx: 1000px;
     cy: 1000px;
     r: 1000px;
-    opacity: 0.24;
-    mix-blend-mode: multiply;
+    opacity: 0.66;
+    mix-blend-mode: color-burn;
     &:nth-child(1) {
+      fill: blue;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(0deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(0deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(0deg);
@@ -90,6 +91,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(0deg);
     }
     &:nth-child(2) {
+      fill: purple;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(30deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(30deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(30deg);
@@ -97,6 +99,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(30deg);
     }
     &:nth-child(3) {
+      fill: pink;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(60deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(60deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(60deg);
@@ -104,6 +107,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(60deg);
     }
     &:nth-child(4) {
+      fill: gold;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(90deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(90deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(90deg);
@@ -111,6 +115,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(90deg);
     }
     &:nth-child(5) {
+      fill: green;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(120deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(120deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(120deg);
@@ -118,6 +123,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(120deg);
     }
     &:nth-child(6) {
+      fill: red;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(150deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(150deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(150deg);
@@ -125,6 +131,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(150deg);
     }
     &:nth-child(7) {
+      fill: green;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(180deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(180deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(180deg);
@@ -132,6 +139,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(180deg);
     }
     &:nth-child(8) {
+      fill: purple;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(210deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(210deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(210deg);
@@ -139,6 +147,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(210deg);
     }
     &:nth-child(9) {
+      fill: yellow;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(240deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(240deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(240deg);
@@ -146,6 +155,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(240deg);
     }
     &:nth-child(10) {
+      fill: red;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(270deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(270deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(270deg);
@@ -153,6 +163,7 @@ svg {
               transform: translate3d(50%, 50%, 0) rotate(270deg);
     }
     &:nth-child(11) {
+      fill: green;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(300deg);
          -moz-transform: translate3d(50%, 50%, 0) rotate(300deg);
           -ms-transform: translate3d(50%, 50%, 0) rotate(300deg);
