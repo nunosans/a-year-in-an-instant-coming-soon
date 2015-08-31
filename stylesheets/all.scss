@@ -1,0 +1,105 @@
+svg {
+  position: fixed;
+  width: 2000px;
+  height: 2000px;
+  top: 50%;
+  left: 50%;
+  margin-top: -1000px;
+  margin-left: -1000px;
+  z-index: 1;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  circle {
+    width: 500px;
+    height: 500px;
+    cx: 1000px;
+    cy: 1000px;
+    r: 1000px;
+    opacity: 0.24;
+    mix-blend-mode: multiply;
+    &:nth-child(1) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(0deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(0deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(0deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(0deg);
+              transform: translate3d(50%, 50%, 0) rotate(0deg);
+    }
+    &:nth-child(2) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(30deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(30deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(30deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(30deg);
+              transform: translate3d(50%, 50%, 0) rotate(30deg);
+    }
+    &:nth-child(3) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(60deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(60deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(60deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(60deg);
+              transform: translate3d(50%, 50%, 0) rotate(60deg);
+    }
+    &:nth-child(4) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(90deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(90deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(90deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(90deg);
+              transform: translate3d(50%, 50%, 0) rotate(90deg);
+    }
+    &:nth-child(5) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(120deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(120deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(120deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(120deg);
+              transform: translate3d(50%, 50%, 0) rotate(120deg);
+    }
+    &:nth-child(6) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(150deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(150deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(150deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(150deg);
+              transform: translate3d(50%, 50%, 0) rotate(150deg);
+    }
+    &:nth-child(7) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(180deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(180deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(180deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(180deg);
+              transform: translate3d(50%, 50%, 0) rotate(180deg);
+    }
+    &:nth-child(8) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(210deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(210deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(210deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(210deg);
+              transform: translate3d(50%, 50%, 0) rotate(210deg);
+    }
+    &:nth-child(9) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(240deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(240deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(240deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(240deg);
+              transform: translate3d(50%, 50%, 0) rotate(240deg);
+    }
+    &:nth-child(10) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(270deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(270deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(270deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(270deg);
+              transform: translate3d(50%, 50%, 0) rotate(270deg);
+    }
+    &:nth-child(11) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(300deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(300deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(300deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(300deg);
+              transform: translate3d(50%, 50%, 0) rotate(300deg);
+    }
+    &:nth-child(12) {
+      -webkit-transform: translate3d(50%, 50%, 0) rotate(330deg);
+         -moz-transform: translate3d(50%, 50%, 0) rotate(330deg);
+          -ms-transform: translate3d(50%, 50%, 0) rotate(330deg);
+           -o-transform: translate3d(50%, 50%, 0) rotate(330deg);
+              transform: translate3d(50%, 50%, 0) rotate(330deg);
+    }
+  }
+}
