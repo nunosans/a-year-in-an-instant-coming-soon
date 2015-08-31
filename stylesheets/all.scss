@@ -3,11 +3,12 @@ $gutter-width: 1.4%;
 $ik-blue: #1042FF;
 
 body {
-  color: lighten(black, 18%);
+  // color: lighten(black, 18%);
   color: white;
   font-family: "freight-text-pro", "Times New Roman", serif;
   font-weight: 400;
   height: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 *[lang="ja"] {
@@ -55,10 +56,12 @@ a {
   font-size: 95%;
   text-decoration: none;
   display: inline-block;
-  border-bottom: 1.75px solid rgba(white, 0.66);
+  // border-bottom: 2px solid rgba(lighten(black, 18%), 0.33);
+  border-bottom: 2px solid rgba(white, 0.66);
   height: 22px;
   &:hover {
-    border-bottom: 1.75px solid white;
+    // border-bottom: 2px solid lighten(black, 18%);
+    border-bottom: 2px solid white;
   }
 }
 
