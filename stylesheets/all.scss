@@ -15,30 +15,42 @@ body {
 }
 
 article {
-  margin: 44px;
+  margin: 22px;
   max-width: 620px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   z-index: 2;
+  @media (min-width: 1000px) {
+    margin: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 footer {
-  margin: 44px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  margin: 22px;
+  position: relative;
   z-index: 2;
+  @media (min-width: 1000px) {
+    margin: 44px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 h1 {
-  font-size: 120px;
-  line-height: 120px;
+  font-size: 80px;
+  line-height: 80px;
   margin: 0;
   font-weight: 500;
   font-family: "freight-big-pro", "Times New Roman", serif;
   &[lang="ja"] {
     font-family: "heisei-mincho-stdn", serif;
+  }
+  @media (min-width: 1000px) {
+    font-size: 120px;
+    line-height: 120px;
   }
 }
 
