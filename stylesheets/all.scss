@@ -16,6 +16,7 @@ body {
 
 article {
   margin: 44px;
+  max-width: 620px;
   position: absolute;
   top: 0;
   left: 0;
@@ -32,7 +33,7 @@ footer {
 
 h1 {
   font-size: 120px;
-  line-height: 145px;
+  line-height: 120px;
   margin: 0;
   font-weight: 500;
   font-family: "freight-big-pro", "Times New Roman", serif;
@@ -72,7 +73,7 @@ a {
   margin-left: -1000px;
   z-index: 1;
   pointer-events: none;
-  background-color: darken(white, 16%);
+  background-color: darken(white, 12%);
   -webkit-animation: spin 150s infinite linear;
           animation: spin 150s infinite linear;
   -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
