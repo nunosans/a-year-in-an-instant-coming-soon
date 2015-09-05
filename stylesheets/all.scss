@@ -10,10 +10,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-*[lang="ja"] {
-  font-family: "heisei-mincho-stdn", serif;
-}
-
 article {
   margin: 22px 11px 22px 22px;
   max-width: 620px;
@@ -45,9 +41,6 @@ h1 {
   margin: 0;
   font-weight: 500;
   font-family: "freight-big-pro", "Times New Roman", serif;
-  &[lang="ja"] {
-    font-family: "heisei-mincho-stdn", serif;
-  }
   @media (min-width: 1000px) {
     font-size: 120px;
     line-height: 120px;
@@ -72,22 +65,6 @@ a {
   height: 22px;
   &:hover {
     border-bottom: 2px solid white;
-  }
-}
-
-#background-video {
-  position: fixed;
-  // width: 100%;
-  // height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  background-color: darken(white, 24%);
-  &[poster] {
-    width: 100%;
-    height: auto;
   }
 }
 
@@ -129,8 +106,6 @@ svg {
     mix-blend-mode: color-burn;
     &:nth-child(1) {
       fill: blue;
-      // -webkit-animation: spin-circle-1 120s infinite linear;
-              // animation: spin-circle-1 120s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(0deg);
@@ -141,8 +116,6 @@ svg {
     }
     &:nth-child(2) {
       fill: purple;
-      // -webkit-animation: spin-circle-2 152s infinite linear;
-              // animation: spin-circle-2 152s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(30deg);
@@ -153,8 +126,6 @@ svg {
     }
     &:nth-child(3) {
       fill: pink;
-      // -webkit-animation: spin-circle-3 148s infinite linear;
-              // animation: spin-circle-3 148s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(60deg);
@@ -165,8 +136,6 @@ svg {
     }
     &:nth-child(4) {
       fill: gold;
-      // -webkit-animation: spin-circle-4 131s infinite linear;
-              // animation: spin-circle-4 131s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(90deg);
@@ -177,8 +146,6 @@ svg {
     }
     &:nth-child(5) {
       fill: green;
-      // -webkit-animation: spin-circle-5 149s infinite linear;
-              // animation: spin-circle-5 149s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(120deg);
@@ -189,8 +156,6 @@ svg {
     }
     &:nth-child(6) {
       fill: red;
-      // -webkit-animation: spin-circle-6 150s infinite linear;
-              // animation: spin-circle-6 150s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(150deg);
@@ -201,8 +166,6 @@ svg {
     }
     &:nth-child(7) {
       fill: green;
-      // -webkit-animation: spin-circle-7 153s infinite linear;
-              // animation: spin-circle-7 153s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(180deg);
@@ -213,8 +176,6 @@ svg {
     }
     &:nth-child(8) {
       fill: purple;
-      // -webkit-animation: spin-circle-8 127s infinite linear;
-              // animation: spin-circle-8 127s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(210deg);
@@ -225,8 +186,6 @@ svg {
     }
     &:nth-child(9) {
       fill: yellow;
-      // -webkit-animation: spin-circle-9 151s infinite linear;
-              // animation: spin-circle-9 151s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(240deg);
@@ -237,8 +196,6 @@ svg {
     }
     &:nth-child(10) {
       fill: red;
-      // -webkit-animation: spin-circle-10 150s infinite linear;
-              // animation: spin-circle-10 150s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(270deg);
@@ -249,8 +206,6 @@ svg {
     }
     &:nth-child(11) {
       fill: green;
-      // -webkit-animation: spin-circle-11 150s infinite linear;
-              // animation: spin-circle-11 150s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(300deg);
@@ -261,8 +216,6 @@ svg {
     }
     &:nth-child(12) {
       fill: gold;
-      // -webkit-animation: spin-circle-12 150s infinite linear;
-              // animation: spin-circle-12 150s infinite linear;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both;
       -webkit-transform: translate3d(50%, 50%, 0) rotate(330deg);
